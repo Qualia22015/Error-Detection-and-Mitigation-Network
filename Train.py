@@ -12,7 +12,7 @@ from Dataset import MultiTaskFatDataset
 
 def run_training_and_evaluation():
     # 데이터 로딩, 사용할 데이터셋 정의
-    TRACE_DIR = 'C:/Users/RAiSe_Lab/Desktop/root/김용호/Python_Projects/Fault_Injection/feature_traces'  # <-- 학습시킬 .pt 파일이 있는 폴더 경로
+    TRACE_DIR = '/feature_traces'  # <-- 학습시킬 .pt 파일이 있는 폴더 경로
 
     NUM_EPOCHS = 20
 
